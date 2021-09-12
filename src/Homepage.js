@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./About";
 import Menu from "./Menu";
-import Menu from "./Contact";
+import Contact from "./Contact";
 
 const Homepage = () => {
   return (
@@ -24,8 +24,8 @@ const Homepage = () => {
             <LinkContainer to="/About">
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/Contact & Support">
-              <Nav.Link>About</Nav.Link>
+            <LinkContainer to="/Contact">
+              <Nav.Link>Contact & Support</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

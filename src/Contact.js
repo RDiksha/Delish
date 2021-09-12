@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutBackground from '../src/assets/re21.jpg';
 
-const About = () => {
+const Contact = () => {
     return (
         <div style={{
           backgroundImage: `url(${AboutBackground})`,
@@ -19,4 +19,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Contact
